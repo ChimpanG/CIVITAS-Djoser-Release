@@ -16,7 +16,7 @@ VALUES
 -- UA
 -----------------------------------------------	
 
-	("en_US",	"LOC_TRAIT_LEADER_CVS_DJOSER_UA_NAME",  "Divine of Body"	),
+	("en_US",	"LOC_TRAIT_LEADER_CVS_DJOSER_UA_NAME",  "Qebehu-Netjeru"	),
 	("en_US",	"LOC_TRAIT_LEADER_CVS_DJOSER_UA_DESCRIPTION",
 	"Completing a Wonder triggers a culture bomb, claiming adjacent tiles, and awards a free [ICON_GOVERNOR] Governor title. Gain access to {LOC_GOVERNOR_CVS_IMHOTEP_NAME}, the {LOC_GOVERNOR_CVS_IMHOTEP_SHORT_TITLE}, a [ICON_GOVERNOR] Governor unique to Djoser."	),
 
