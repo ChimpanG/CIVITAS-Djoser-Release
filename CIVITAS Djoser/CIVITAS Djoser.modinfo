@@ -77,7 +77,6 @@
     <File>ArtDefs/LeaderFallback.artdef</File>
     <File>ArtDefs/Leaders.artdef</File>
     <File>CIVITAS_Djoser.dep</File>
-    <File>Core/Archive/Djoser_UG.sql</File>
     <File>Core/Djoser_Agenda.sql</File>
     <File>Core/Djoser_Colors.sql</File>
     <File>Core/Djoser_Config.sql</File>

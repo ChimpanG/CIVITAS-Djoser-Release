@@ -18,7 +18,7 @@ VALUES
 
 	("en_US",	"LOC_TRAIT_LEADER_CVS_DJOSER_UA_NAME",  "Qebehu-Netjeru"	),
 	("en_US",	"LOC_TRAIT_LEADER_CVS_DJOSER_UA_DESCRIPTION",
-	"Completing a Wonder triggers a culture bomb, claiming adjacent tiles, and awards a free [ICON_GOVERNOR] Governor title. Gain access to {LOC_GOVERNOR_CVS_IMHOTEP_NAME}, the {LOC_GOVERNOR_CVS_IMHOTEP_SHORT_TITLE}, a [ICON_GOVERNOR] Governor unique to Djoser."	),
+	"Completing a Wonder triggers a culture bomb, claiming adjacent tiles. Gain access to {LOC_GOVERNOR_CVS_IMHOTEP_NAME}, the {LOC_GOVERNOR_CVS_IMHOTEP_SHORT_TITLE}, a [ICON_GOVERNOR] Governor unique to Djoser."	),
 
 -----------------------------------------------
 -- UG
@@ -32,17 +32,17 @@ VALUES
 	("en_US", "LOC_GOVERNOR_PROMOTION_CVS_TJATI_NAME",							"Tjati"	),
 	("en_US", "LOC_GOVERNOR_PROMOTION_CVS_TJATI_DESCRIPTION",					"+0.5 [ICON_PRODUCTION] Production per turn for each [ICON_CITIZEN] Citizen in the city."	),
 	
+	("en_US", "LOC_GOVERNOR_PROMOTION_CVS_HEQA_HUT_AA_NAME",					"Heqa-hut-aa"	),
+	("en_US", "LOC_GOVERNOR_PROMOTION_CVS_HEQA_HUT_AA_DESCRIPTION",				"Each wonder provides +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold on international [ICON_TRADEROUTE] Trade Routes from the city."	),
+
+	("en_US", "LOC_GOVERNOR_PROMOTION_CVS_HIGH_PRIEST_OF_RA_NAME",				"High Priest of Ra"	),
+	("en_US", "LOC_GOVERNOR_PROMOTION_CVS_HIGH_PRIEST_OF_RA_DESCRIPTION",		"Each wonder provides +0.5 [ICON_PRODUCTION] Production and +1 [ICON_FAITH] Faith on domestic [ICON_TRADEROUTE] Trade Routes to the city."	),
+
 	("en_US", "LOC_GOVERNOR_PROMOTION_CVS_OVERSEER_OF_STONEWORKS_NAME",			"Overseer of Stoneworks"	),
 	("en_US", "LOC_GOVERNOR_PROMOTION_CVS_OVERSEER_OF_STONEWORKS_DESCRIPTION",	"+2 [ICON_GREATENGINEER] Great Engineer points per turn for each wonder in the city."	),
 
 	("en_US", "LOC_GOVERNOR_PROMOTION_CVS_SEBAYT_AUTHOR_NAME",					"Sebayt Author"	),
 	("en_US", "LOC_GOVERNOR_PROMOTION_CVS_SEBAYT_AUTHOR_DESCRIPTION",			"+1 [ICON_AMENITIES] Amenity for each wonder in the city."	),
-	
-	("en_US", "LOC_GOVERNOR_PROMOTION_CVS_HEQA_HUT_AA_NAME",					"Heqa-hut-aa"	),
-	("en_US", "LOC_GOVERNOR_PROMOTION_CVS_HEQA_HUT_AA_DESCRIPTION",				"Each wonder in the city provides +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold on international [ICON_TRADEROUTE] Trade Routes from this city."	),
-
-	("en_US", "LOC_GOVERNOR_PROMOTION_CVS_HIGH_PRIEST_OF_RA_NAME",				"High Priest of Ra"	),
-	("en_US", "LOC_GOVERNOR_PROMOTION_CVS_HIGH_PRIEST_OF_RA_DESCRIPTION",		"Each wonder in the city provides +1 [ICON_FOOD] Food and +1 [ICON_FAITH] Faith on domestic [ICON_TRADEROUTE] Trade Routes to this city."	),
 
 	("en_US", "LOC_GOVERNOR_PROMOTION_CVS_IRY_PAT_NAME",						"Iry-pat"	),
 	("en_US", "LOC_GOVERNOR_PROMOTION_CVS_IRY_PAT_DESCRIPTION",					"Floodplains do not reduce the appeal of adjacent tiles. Tiles with breathtaking appeal yield +1 [ICON_CULTURE] Culture."	),

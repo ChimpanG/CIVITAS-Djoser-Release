@@ -39,12 +39,12 @@ FROM	Buildings WHERE IsWonder = 1;
 -----------------------------------------------
 -- BuildingModifiers
 -----------------------------------------------
-
+/*
 INSERT INTO	BuildingModifiers (BuildingType, ModifierId)
 SELECT	BuildingType,
 		'MODIFIER_CVS_DJOSER_UA_GOVERNOR_TITLE'
 FROM	Buildings WHERE IsWonder = 1;
-
+*/
 -----------------------------------------------
 -- Modifiers
 -----------------------------------------------
@@ -53,11 +53,11 @@ INSERT INTO	Modifiers (ModifierId, ModifierType)
 SELECT	'MODIFIER_CVS_DJOSER_UA_BOMB_'||BuildingType,
 		'MODIFIER_PLAYER_ADD_CULTURE_BOMB_TRIGGER'
 FROM	Buildings WHERE IsWonder = 1;	
-
+/*
 INSERT INTO	Modifiers
 		(ModifierId,								ModifierType,								SubjectRequirementSetId,		RunOnce,	Permanent	)
 VALUES	('MODIFIER_CVS_DJOSER_UA_GOVERNOR_TITLE',	'MODIFIER_PLAYER_ADJUST_GOVERNOR_POINTS',	'REQSET_CVS_PLAYER_IS_DJOSER',	0,			0			);
-
+*/
 -----------------------------------------------
 -- ModifierArguments
 -----------------------------------------------
@@ -67,7 +67,8 @@ SELECT	'MODIFIER_CVS_DJOSER_UA_BOMB_'||BuildingType,
 		'BuildingType',
 		BuildingType
 FROM	Buildings WHERE IsWonder = 1;
-
+/*
 INSERT INTO	ModifierArguments
 		(ModifierId,								Name,		Value	)
 VALUES	('MODIFIER_CVS_DJOSER_UA_GOVERNOR_TITLE',	'Delta',	1		);
+*/
